@@ -1,0 +1,10 @@
+---
+applications:
+  - name: DEALER-STAT
+    instances: 1
+    host: DEALER-STAT-9-2-2000
+    path: target/dealerStat-1.0-SNAPSHOT.war
+    buildpack: https://github.com/cloudfoundry/java-buildpack.git#v4.36
+    services:
+      - dealer-stat-database
+      - redis-dealer

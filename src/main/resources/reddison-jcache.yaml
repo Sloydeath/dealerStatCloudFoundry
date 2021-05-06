@@ -1,0 +1,2 @@
+singleServerConfig:
+  address: "rediss://no-user-name-for-redis:lHMSaNTxllTQRhFchGxlilCFvPHsFofj@master.rg-9bacce2b-484b-45a2-87e9-d94b31322ba2.iroxbd.euc1.cache.amazonaws.com:1324"
